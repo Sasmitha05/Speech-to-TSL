@@ -1,0 +1,83 @@
+
+
+/* Content box to hold all the UI elements */
+.speech-recognition-box {
+  background-color: rgba(255, 255, 255, 0.95); /* Slightly transparent white */
+  padding: 40px;
+  border-radius: 16px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15); /* Soft shadow for depth */
+  text-align: center;
+  max-width: 600px; /* Set a max-width for better scaling */
+  width: 100%;
+  font-family: 'Cinzel Decorative', sans-serif;
+  transition: transform 0.3s ease;
+}
+
+.speech-recognition-box:hover {
+  transform: translateY(-5px); /* Subtle lift effect on hover */
+}
+
+.speech-recognition-box h1 {
+  margin-bottom: 24px;
+  color: #0056b3;
+  font-family: 'Cinzel Decorative', sans-serif;
+  font-size: 36px;
+}
+
+/* Button styles */
+.speech-recognition-box button {
+  width: 80%;
+  max-width: 300px;
+  margin: 15px auto;
+  padding: 15px;
+  border: none;
+  border-radius: 10px;
+  font-size: 18px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s;
+}
+
+/* Start button styles */
+.speech-recognition-box button:first-of-type {
+  background-color: #007bff;
+  color: white;
+}
+
+.speech-recognition-box button:first-of-type:hover {
+  background-color: #0056b3;
+  transform: translateY(-2px);
+}
+
+/* Stop button styles */
+.speech-recognition-box button:last-of-type {
+  background-color: #d9534f;
+  color: white;
+}
+
+.speech-recognition-box button:last-of-type:hover {
+  background-color: #b52b27;
+  transform: translateY(-2px);
+}
+
+/* Status text (Listening / Not listening) */
+.speech-recognition-box p {
+  margin-top: 20px;
+  font-size: 16px;
+  color: #666;
+}
+
+/* Styling for the recognized text */
+.speech-recognition-box .recognized-text {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 20px 0;
+  color: #333;
+}
+
+/* GIF display styles */
+.speech-recognition-box img {
+  width: 100%;
+  max-width: 500px;
+  border-radius: 12px;
+  margin-top: 20px;
+}
