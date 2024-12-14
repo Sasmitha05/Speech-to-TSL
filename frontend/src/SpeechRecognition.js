@@ -15,7 +15,7 @@ const SpeechRecognitionComponent = () => {
     },
   ];
 
-  const { transcript, listening } = useSpeechRecognition({ commands });
+  useSpeechRecognition({ commands });
 
   useEffect(() => {
     const styleSheet = document.styleSheets[0];
