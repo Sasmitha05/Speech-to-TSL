@@ -2,13 +2,13 @@
 Silent Gestures is an innovative web application designed to enhance communication between spoken and sign language users. This project leverages modern web technologies to recognize Tamil speech and display corresponding Tamil Sign Language (TSL) gestures as GIFs.
 
 # Features
-1. User Authentication
+1.User Authentication
    
 Login Page: Allows registered users to securely log in to the application.
 
 Signup Page: Enables new users to create an account with proper validation for user credentials.
 
-2. Speech Recognition
+2.Speech Recognition
    
 Uses the React-Speech-Recognition library to capture and process Tamil speech in real-time.
 
@@ -16,7 +16,7 @@ Displays recognized words or phrases in text format.
 
 If the recognized phrase matches predefined Tamil Sign Language phrases, the corresponding TSL GIF is displayed dynamically.
 
-3. Interactive User Interface
+3.Interactive User Interface
    
 The interface is designed with custom styling using CSS for an elegant and responsive user experience.
 
